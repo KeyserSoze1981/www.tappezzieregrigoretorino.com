@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Contatti</title>
+</head>
+<body>
+    <header>
+      <a href="./index.html"><img src="/img/LogoMakr-7WWSud.png" alt="logo"></a>
+    <nav>
+      <ul class="nav-links">
+        <li><a class="nav-link" href="./index.html">Home</a></li>
+        <li><a class="nav-link" href="./about.html">Chi siamo</a></li>
+        <li><a class="nav-link" href="./contact.html">Contatti</a></li>
+      </ul>
+    </nav>
+  </header>
+    <div class="container">
+      <form name="contact" method="POST" data-netlify="true">
+        <label for="name">Nome</label>
+        <input type="text" id="name" name="name" placeholder="Il tuo nome...">
+        <label for="telefon">Numero di telefono</label>
+        <input type="tel" id="telefon" name="telefon" placeholder="Numero di telefono...">
+        <label for="mesaj">Messaggio</label>
+        <textarea id="mesaj" name="mesaj" placeholder="Scrivi un messaggio..." style="height:200px"></textarea>
+        <input type="submit" value="Spedire">
+        <p>In alternativa e più velocemente, puoi contattarci telefonicamente al numero:+ 347 001 304139</p>
+        <p>Dove siamo: via Eusebio Bava 6, 10124 Torino, Italia</p>
+        
+      </form>
+  
+</body>
+</html>

@@ -1,0 +1,132 @@
+. {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Libre Baskerville", serif;
+  background-color: whitesmoke;
+  color: black;
+}
+header {
+  text-align: center;
+  margin: auto;
+}
+.nav-links {
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+.nav-link {
+  text-decoration: none;
+  color: currentColor;
+}
+h5 {
+  text-align: end;
+  padding-right: 15%;
+  color: #2a7a2d;
+}
+.nav-photos {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  padding-top: 5%;
+}
+
+figure.item {
+  display: inline-block;
+  text-align: center;
+}
+
+.caption {
+  display: block;
+}
+
+#services,
+#fabrics,
+#gallery {
+  border: 3px black solid;
+}
+.main-photos img:hover {
+  opacity: 0.7;
+}
+input[type="text"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type="submit"] {
+  background-color: #2a7a2d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+.description {
+  margin: auto;
+  font-size: medium;
+  padding: 50px;
+  padding-top: 100px;
+}
+.restore,
+.upholstery,
+.curtains {
+  display: flex;
+  align-items: center;
+}
+.restore-list,
+.upholstery-list,
+.curtains-list {
+  list-style: none;
+  opacity: 0.6;
+  line-height: 2;
+}
+.thumbnail,
+.thumbnail-1,
+.thumbnail-2 {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.about-photos {
+  display: flex;
+  justify-content: space-evenly;
+}
+.about-description {
+  margin: auto;
+  font-size: medium;
+  padding: 50px;
+  padding-top: 100px;
+  opacity: 0.6;
+}
+h4 {
+  text-align: center;
+}
+.fabrics-description {
+  margin: auto;
+  font-size: medium;
+  padding: 50px;
+  padding-top: 100px;
+  opacity: 0.6;
+}
+.brands {
+  padding-left: 15%;
+}
+.profi {
+  padding-top: 120px;
+  padding-left: 350px;
+}
