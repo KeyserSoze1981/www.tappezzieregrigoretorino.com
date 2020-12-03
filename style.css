@@ -11,6 +11,8 @@ body {
 h1 {
   text-align: center;
   margin: auto;
+  padding-bottom: 10%;
+  padding-top: 5%;
 }
 .nav-links {
   margin: auto;
