@@ -102,6 +102,7 @@ input[type="submit"] {
   padding-top: 100px;
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .about-photos {
