@@ -108,6 +108,7 @@ input[type="submit"] {
 .about-photos {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .about-description {
   margin: auto;
