@@ -131,6 +131,7 @@ h4 {
   padding-left: 15%;
 }
 .profi {
-  padding-top: 120px;
-  padding-left: 350px;
+  display: block;
+  margin: auto;
+  margin-top: 10rem;
 }
