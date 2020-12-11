@@ -135,3 +135,11 @@ h4 {
   margin: auto;
   margin-top: 10rem;
 }
+@media screen and (max-width: 412px) {
+  html {
+    font-size: 75%;
+  }
+  .profi {
+    width: 75%;
+  }
+}
