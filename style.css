@@ -19,6 +19,7 @@ h1 {
   display: flex;
   justify-content: space-around;
   list-style: none;
+  flex-wrap: wrap;
 }
 .nav-link {
   text-decoration: none;
@@ -137,7 +138,7 @@ h4 {
 }
 @media screen and (max-width: 412px) {
   html {
-    font-size: 75%;
+    font-size: 90%;
   }
   .profi {
     width: 75%;
