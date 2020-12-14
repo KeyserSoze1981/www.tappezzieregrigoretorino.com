@@ -83,6 +83,7 @@ input[type="submit"] {
   font-size: medium;
   padding: 50px;
   padding-top: 100px;
+  font-size: 1.25rem;
 }
 .restore,
 .upholstery,
@@ -117,6 +118,7 @@ input[type="submit"] {
   padding: 50px;
   padding-top: 100px;
   opacity: 0.6;
+  font-size: 1.25rem;
 }
 h4 {
   text-align: center;
